@@ -1,6 +1,5 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
-
 int main() {
     // 1. Load in color (need color for final drawing) + grayscale copy
     cv::Mat color = cv::imread("circles.jpg", cv::IMREAD_COLOR);
