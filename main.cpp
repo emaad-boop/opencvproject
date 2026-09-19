@@ -2,7 +2,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
 int main() {
     // 1. Load the image
     cv::Mat img = cv::imread("img1.jpg");
